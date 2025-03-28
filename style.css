@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #112A46;
+}
+
+.discountCalculator {
+    background-color: #ACC8E5;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.valueInput {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#price {
+    margin-bottom: 5px;
+}
+
+input {
+    border: 0;
+    border-radius: 2px;
+}
+
+.submit {
+    display: flex;
+    justify-content: right;
+}
+
+#submit {
+    background-color: #112A46;
+    border: 0px;
+    padding: 2px 20px;
+    color: white;
+    border-radius: 2px;
+    transition: 0.25s;
+}
+
+#submit:hover {
+    background-color: #296cb9;
+    cursor: pointer;
+}
+
+#submit:active {
+    background-color: #112A46;
+}
+
+
+
+
+
